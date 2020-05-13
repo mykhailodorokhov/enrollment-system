@@ -1,0 +1,3 @@
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir
