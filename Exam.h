@@ -6,10 +6,16 @@ class Exam {
     string name;
     string* questions;
     string* answers;
+
 public:
     Exam();
-    Exam(string name, string questions[], string answers[]);
+
+    void setName(string name);
     string getName();
+
+    void setQuestions(string questions[]);
     string* getQuestions();
+
+    void setAnswers(string answers[]);
     string* getAnswers();
 };

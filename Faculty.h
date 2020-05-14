@@ -6,13 +6,18 @@ using namespace std;
 
 class Faculty {
     string name;
-    Professor* responsibleProfessor;
     Exam* entranceExam;
+    Professor* responsibleProfessor;
+
 public:
     Faculty();
-    Faculty(string name, Exam* entranceExam, Professor* responsibleProfessor);
+
+    void setName(string name);
     string getName();
+
     void setEntranceExam(Exam* entranceExam);
     Exam* getEntranceExam();
+
+    void setResponsibleProfessor(Professor* responsibleProfessor);
     Professor* getResponsibleProfessor();
 };

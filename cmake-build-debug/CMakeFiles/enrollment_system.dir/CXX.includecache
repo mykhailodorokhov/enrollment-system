@@ -30,11 +30,11 @@ Professor.h
 Exam.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
 
-/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
-string
--
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.cpp
+FileManager.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.h
 
-/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.h
 iostream
 -
 fstream
@@ -43,4 +43,8 @@ sstream
 -
 Application.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
+string
+-
 

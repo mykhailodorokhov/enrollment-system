@@ -1,19 +1,31 @@
 #include "Exam.h"
 
-Exam::Exam(string name, string questions[], string answers[]) {
+Exam::Exam() {
+    this->name = "";
+    this->questions = nullptr;
+    this->answers = nullptr;
+}
+
+void Exam::setName(string name) {
     this->name = name;
-    this->questions = questions;
-    this->answers = answers;
 }
 
 string Exam::getName() {
     return this->name;
 }
 
-string * Exam::getQuestions() {
+void Exam::setQuestions(string questions[]) {
+    this->questions = questions;
+}
+
+string* Exam::getQuestions() {
     return this->questions;
 }
 
-string * Exam::getAnswers() {
+void Exam::setAnswers(string *answers) {
+    this->answers = answers;
+}
+
+string* Exam::getAnswers() {
     return this->answers;
 }

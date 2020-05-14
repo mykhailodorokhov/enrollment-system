@@ -1,6 +1,10 @@
 #include "Professor.h"
 
-Professor::Professor(string name) {
+Professor::Professor() {
+    this->name = "";
+}
+
+void Professor::setName(string name) {
     this->name = name;
 }
 

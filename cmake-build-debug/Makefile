@@ -231,6 +231,33 @@ Faculty.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.s
 .PHONY : Faculty.cpp.s
 
+FileManager.o: FileManager.cpp.o
+
+.PHONY : FileManager.o
+
+# target to build an object file
+FileManager.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.o
+.PHONY : FileManager.cpp.o
+
+FileManager.i: FileManager.cpp.i
+
+.PHONY : FileManager.i
+
+# target to preprocess a source file
+FileManager.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.i
+.PHONY : FileManager.cpp.i
+
+FileManager.s: FileManager.cpp.s
+
+.PHONY : FileManager.s
+
+# target to generate assembly for a file
+FileManager.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.s
+.PHONY : FileManager.cpp.s
+
 Professor.o: Professor.cpp.o
 
 .PHONY : Professor.o
@@ -306,6 +333,9 @@ help:
 	@echo "... Faculty.o"
 	@echo "... Faculty.i"
 	@echo "... Faculty.s"
+	@echo "... FileManager.o"
+	@echo "... FileManager.i"
+	@echo "... FileManager.s"
 	@echo "... Professor.o"
 	@echo "... Professor.i"
 	@echo "... Professor.s"

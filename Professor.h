@@ -4,7 +4,10 @@ using namespace std;
 
 class Professor {
     string name;
+
 public:
-    Professor(string name);
+    Professor();
+
+    void setName(string name);
     string getName();
 };

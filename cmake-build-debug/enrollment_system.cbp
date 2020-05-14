@@ -104,6 +104,12 @@
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h">
 			<Option target="enrollment_system"/>
 		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.cpp">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.h">
+			<Option target="enrollment_system"/>
+		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp">
 			<Option target="enrollment_system"/>
 		</Unit>
