@@ -6,7 +6,41 @@
 
 #IncludeRegexTransform: 
 
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+string
+-
+Faculty.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
+Enrollee.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.h
+string
+-
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
+string
+-
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
+string
+-
+Professor.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
+Exam.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
+string
+-
+
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp
 iostream
 -
+fstream
+-
+sstream
+-
+Application.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
 

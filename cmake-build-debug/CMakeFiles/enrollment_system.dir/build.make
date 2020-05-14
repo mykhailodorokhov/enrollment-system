@@ -70,17 +70,92 @@ CMakeFiles/enrollment_system.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp -o CMakeFiles/enrollment_system.dir/main.cpp.s
 
+CMakeFiles/enrollment_system.dir/Enrollee.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/Enrollee.cpp.o: ../Enrollee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enrollment_system.dir/Enrollee.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/Enrollee.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.cpp
+
+CMakeFiles/enrollment_system.dir/Enrollee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/Enrollee.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.cpp > CMakeFiles/enrollment_system.dir/Enrollee.cpp.i
+
+CMakeFiles/enrollment_system.dir/Enrollee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Enrollee.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.cpp -o CMakeFiles/enrollment_system.dir/Enrollee.cpp.s
+
+CMakeFiles/enrollment_system.dir/Exam.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/Exam.cpp.o: ../Exam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enrollment_system.dir/Exam.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/Exam.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp
+
+CMakeFiles/enrollment_system.dir/Exam.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/Exam.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp > CMakeFiles/enrollment_system.dir/Exam.cpp.i
+
+CMakeFiles/enrollment_system.dir/Exam.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Exam.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp -o CMakeFiles/enrollment_system.dir/Exam.cpp.s
+
+CMakeFiles/enrollment_system.dir/Faculty.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/Faculty.cpp.o: ../Faculty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enrollment_system.dir/Faculty.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/Faculty.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.cpp
+
+CMakeFiles/enrollment_system.dir/Faculty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/Faculty.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.cpp > CMakeFiles/enrollment_system.dir/Faculty.cpp.i
+
+CMakeFiles/enrollment_system.dir/Faculty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Faculty.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.cpp -o CMakeFiles/enrollment_system.dir/Faculty.cpp.s
+
+CMakeFiles/enrollment_system.dir/Professor.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/Professor.cpp.o: ../Professor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/enrollment_system.dir/Professor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/Professor.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp
+
+CMakeFiles/enrollment_system.dir/Professor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/Professor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp > CMakeFiles/enrollment_system.dir/Professor.cpp.i
+
+CMakeFiles/enrollment_system.dir/Professor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Professor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp -o CMakeFiles/enrollment_system.dir/Professor.cpp.s
+
+CMakeFiles/enrollment_system.dir/Application.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/Application.cpp.o: ../Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/enrollment_system.dir/Application.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/Application.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.cpp
+
+CMakeFiles/enrollment_system.dir/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/Application.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.cpp > CMakeFiles/enrollment_system.dir/Application.cpp.i
+
+CMakeFiles/enrollment_system.dir/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Application.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.cpp -o CMakeFiles/enrollment_system.dir/Application.cpp.s
+
 # Object files for target enrollment_system
 enrollment_system_OBJECTS = \
-"CMakeFiles/enrollment_system.dir/main.cpp.o"
+"CMakeFiles/enrollment_system.dir/main.cpp.o" \
+"CMakeFiles/enrollment_system.dir/Enrollee.cpp.o" \
+"CMakeFiles/enrollment_system.dir/Exam.cpp.o" \
+"CMakeFiles/enrollment_system.dir/Faculty.cpp.o" \
+"CMakeFiles/enrollment_system.dir/Professor.cpp.o" \
+"CMakeFiles/enrollment_system.dir/Application.cpp.o"
 
 # External object files for target enrollment_system
 enrollment_system_EXTERNAL_OBJECTS =
 
 enrollment_system: CMakeFiles/enrollment_system.dir/main.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/Enrollee.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/Exam.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/Faculty.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/Professor.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/Application.cpp.o
 enrollment_system: CMakeFiles/enrollment_system.dir/build.make
 enrollment_system: CMakeFiles/enrollment_system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable enrollment_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable enrollment_system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enrollment_system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

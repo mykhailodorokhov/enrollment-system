@@ -123,6 +123,141 @@ enrollment_system/fast:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/build
 .PHONY : enrollment_system/fast
 
+Application.o: Application.cpp.o
+
+.PHONY : Application.o
+
+# target to build an object file
+Application.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Application.cpp.o
+.PHONY : Application.cpp.o
+
+Application.i: Application.cpp.i
+
+.PHONY : Application.i
+
+# target to preprocess a source file
+Application.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Application.cpp.i
+.PHONY : Application.cpp.i
+
+Application.s: Application.cpp.s
+
+.PHONY : Application.s
+
+# target to generate assembly for a file
+Application.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Application.cpp.s
+.PHONY : Application.cpp.s
+
+Enrollee.o: Enrollee.cpp.o
+
+.PHONY : Enrollee.o
+
+# target to build an object file
+Enrollee.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.o
+.PHONY : Enrollee.cpp.o
+
+Enrollee.i: Enrollee.cpp.i
+
+.PHONY : Enrollee.i
+
+# target to preprocess a source file
+Enrollee.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.i
+.PHONY : Enrollee.cpp.i
+
+Enrollee.s: Enrollee.cpp.s
+
+.PHONY : Enrollee.s
+
+# target to generate assembly for a file
+Enrollee.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.s
+.PHONY : Enrollee.cpp.s
+
+Exam.o: Exam.cpp.o
+
+.PHONY : Exam.o
+
+# target to build an object file
+Exam.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Exam.cpp.o
+.PHONY : Exam.cpp.o
+
+Exam.i: Exam.cpp.i
+
+.PHONY : Exam.i
+
+# target to preprocess a source file
+Exam.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Exam.cpp.i
+.PHONY : Exam.cpp.i
+
+Exam.s: Exam.cpp.s
+
+.PHONY : Exam.s
+
+# target to generate assembly for a file
+Exam.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Exam.cpp.s
+.PHONY : Exam.cpp.s
+
+Faculty.o: Faculty.cpp.o
+
+.PHONY : Faculty.o
+
+# target to build an object file
+Faculty.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.o
+.PHONY : Faculty.cpp.o
+
+Faculty.i: Faculty.cpp.i
+
+.PHONY : Faculty.i
+
+# target to preprocess a source file
+Faculty.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.i
+.PHONY : Faculty.cpp.i
+
+Faculty.s: Faculty.cpp.s
+
+.PHONY : Faculty.s
+
+# target to generate assembly for a file
+Faculty.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.s
+.PHONY : Faculty.cpp.s
+
+Professor.o: Professor.cpp.o
+
+.PHONY : Professor.o
+
+# target to build an object file
+Professor.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Professor.cpp.o
+.PHONY : Professor.cpp.o
+
+Professor.i: Professor.cpp.i
+
+.PHONY : Professor.i
+
+# target to preprocess a source file
+Professor.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Professor.cpp.i
+.PHONY : Professor.cpp.i
+
+Professor.s: Professor.cpp.s
+
+.PHONY : Professor.s
+
+# target to generate assembly for a file
+Professor.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Professor.cpp.s
+.PHONY : Professor.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... enrollment_system"
+	@echo "... Application.o"
+	@echo "... Application.i"
+	@echo "... Application.s"
+	@echo "... Enrollee.o"
+	@echo "... Enrollee.i"
+	@echo "... Enrollee.s"
+	@echo "... Exam.o"
+	@echo "... Exam.i"
+	@echo "... Exam.s"
+	@echo "... Faculty.o"
+	@echo "... Faculty.i"
+	@echo "... Faculty.s"
+	@echo "... Professor.o"
+	@echo "... Professor.i"
+	@echo "... Professor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

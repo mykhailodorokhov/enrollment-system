@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/enrollment_system.dir/Application.cpp.o"
+  "CMakeFiles/enrollment_system.dir/Enrollee.cpp.o"
+  "CMakeFiles/enrollment_system.dir/Exam.cpp.o"
+  "CMakeFiles/enrollment_system.dir/Faculty.cpp.o"
+  "CMakeFiles/enrollment_system.dir/Professor.cpp.o"
   "CMakeFiles/enrollment_system.dir/main.cpp.o"
   "enrollment_system"
   "enrollment_system.pdb"
