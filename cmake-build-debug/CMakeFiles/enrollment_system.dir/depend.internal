@@ -11,6 +11,14 @@ CMakeFiles/enrollment_system.dir/Application.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
 CMakeFiles/enrollment_system.dir/Exam.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
@@ -22,10 +30,6 @@ CMakeFiles/enrollment_system.dir/Faculty.cpp.o
 CMakeFiles/enrollment_system.dir/Professor.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o
- /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
- /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp
- /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.h
 CMakeFiles/enrollment_system.dir/Storage.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
@@ -37,6 +41,7 @@ CMakeFiles/enrollment_system.dir/Storage.cpp.o
 CMakeFiles/enrollment_system.dir/main.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h

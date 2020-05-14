@@ -103,9 +103,9 @@ Faculty* Storage::loadFacultiesData(string fileName) {
         responsibleProfessor.setName(responsibleProfessorName);
 
         Exam entranceExam;
-        for(int i = 0; i < this->examCount; i++) {
-            if (!examName.compare(this->exams[i].getName())) {
-                entranceExam = this->exams[i];
+        for(int e = 0; e < this->examCount; e++) {
+            if (!examName.compare(this->exams[e].getName())) {
+                entranceExam = this->exams[e];
             }
         }
 

@@ -1,2 +1,3 @@
-1
-History,Mykhailo Grushevsky,Ukrainian history;
+2
+Faculty of History,Mykhailo Grushevsky,Ukrainian history;
+Mathematics faculty,Leonhard Euler,Basic math;

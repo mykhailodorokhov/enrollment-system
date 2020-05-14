@@ -92,6 +92,12 @@
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h">
 			<Option target="enrollment_system"/>
 		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h">
+			<Option target="enrollment_system"/>
+		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp">
 			<Option target="enrollment_system"/>
 		</Unit>
@@ -108,12 +114,6 @@
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h">
-			<Option target="enrollment_system"/>
-		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp">
-			<Option target="enrollment_system"/>
-		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.h">
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.cpp">

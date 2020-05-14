@@ -11,6 +11,14 @@ CMakeFiles/enrollment_system.dir/Application.cpp.o: ../Exam.h
 CMakeFiles/enrollment_system.dir/Application.cpp.o: ../Faculty.h
 CMakeFiles/enrollment_system.dir/Application.cpp.o: ../Professor.h
 
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../Applicant.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../Application.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../EnrollmentEngine.cpp
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../EnrollmentEngine.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../Exam.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../Faculty.h
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../Professor.h
+
 CMakeFiles/enrollment_system.dir/Exam.cpp.o: ../Exam.cpp
 CMakeFiles/enrollment_system.dir/Exam.cpp.o: ../Exam.h
 
@@ -22,10 +30,6 @@ CMakeFiles/enrollment_system.dir/Faculty.cpp.o: ../Professor.h
 CMakeFiles/enrollment_system.dir/Professor.cpp.o: ../Professor.cpp
 CMakeFiles/enrollment_system.dir/Professor.cpp.o: ../Professor.h
 
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o: ../Exam.h
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o: ../RankingEngine.cpp
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o: ../RankingEngine.h
-
 CMakeFiles/enrollment_system.dir/Storage.cpp.o: ../Applicant.h
 CMakeFiles/enrollment_system.dir/Storage.cpp.o: ../Application.h
 CMakeFiles/enrollment_system.dir/Storage.cpp.o: ../Exam.h
@@ -36,6 +40,7 @@ CMakeFiles/enrollment_system.dir/Storage.cpp.o: ../Storage.h
 
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Applicant.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Application.h
+CMakeFiles/enrollment_system.dir/main.cpp.o: ../EnrollmentEngine.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Exam.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Faculty.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Professor.h

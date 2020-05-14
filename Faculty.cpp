@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Faculty.h"
 
 Faculty::Faculty() {

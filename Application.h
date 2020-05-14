@@ -1,3 +1,5 @@
+#pragma once
+
 #include <string>
 #include "Faculty.h"
 #include "Applicant.h"

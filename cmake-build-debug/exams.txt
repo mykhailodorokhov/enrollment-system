@@ -1,2 +1,3 @@
-1 5
-Ukrainian history,The year Rus became Christian?,988,The year USSR collapsed?,1991,How many presidents Ukraine had?,6,A?,A,B?,B;
+2 5
+Ukrainian history,When did christianization of Kievan Rus happened?,988,The year USSR collapsed?,1991,How many presidents Ukraine had?,6,Capital of Ukraine?,Kyiv,How many cities have subway?,3;
+Basic math,1+1= ?,2,sqrt(9) ?,3,5! = ?,120,13ˆ0= ?,1,x + 3 = -5 -> x = ?,-8;

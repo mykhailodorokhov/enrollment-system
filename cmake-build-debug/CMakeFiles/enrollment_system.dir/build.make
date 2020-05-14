@@ -148,18 +148,18 @@ CMakeFiles/enrollment_system.dir/Storage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/Storage.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.cpp -o CMakeFiles/enrollment_system.dir/Storage.cpp.s
 
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o: ../RankingEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: CMakeFiles/enrollment_system.dir/flags.make
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o: ../EnrollmentEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o -c /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp
 
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/RankingEngine.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp > CMakeFiles/enrollment_system.dir/RankingEngine.cpp.i
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp > CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.i
 
-CMakeFiles/enrollment_system.dir/RankingEngine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/RankingEngine.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp -o CMakeFiles/enrollment_system.dir/RankingEngine.cpp.s
+CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp -o CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.s
 
 # Object files for target enrollment_system
 enrollment_system_OBJECTS = \
@@ -170,7 +170,7 @@ enrollment_system_OBJECTS = \
 "CMakeFiles/enrollment_system.dir/Professor.cpp.o" \
 "CMakeFiles/enrollment_system.dir/Application.cpp.o" \
 "CMakeFiles/enrollment_system.dir/Storage.cpp.o" \
-"CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o"
+"CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o"
 
 # External object files for target enrollment_system
 enrollment_system_EXTERNAL_OBJECTS =
@@ -182,7 +182,7 @@ enrollment_system: CMakeFiles/enrollment_system.dir/Faculty.cpp.o
 enrollment_system: CMakeFiles/enrollment_system.dir/Professor.cpp.o
 enrollment_system: CMakeFiles/enrollment_system.dir/Application.cpp.o
 enrollment_system: CMakeFiles/enrollment_system.dir/Storage.cpp.o
-enrollment_system: CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o
+enrollment_system: CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o
 enrollment_system: CMakeFiles/enrollment_system.dir/build.make
 enrollment_system: CMakeFiles/enrollment_system.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable enrollment_system"

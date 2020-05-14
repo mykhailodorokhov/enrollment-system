@@ -177,6 +177,33 @@ Application.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
+EnrollmentEngine.o: EnrollmentEngine.cpp.o
+
+.PHONY : EnrollmentEngine.o
+
+# target to build an object file
+EnrollmentEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o
+.PHONY : EnrollmentEngine.cpp.o
+
+EnrollmentEngine.i: EnrollmentEngine.cpp.i
+
+.PHONY : EnrollmentEngine.i
+
+# target to preprocess a source file
+EnrollmentEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.i
+.PHONY : EnrollmentEngine.cpp.i
+
+EnrollmentEngine.s: EnrollmentEngine.cpp.s
+
+.PHONY : EnrollmentEngine.s
+
+# target to generate assembly for a file
+EnrollmentEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.s
+.PHONY : EnrollmentEngine.cpp.s
+
 Exam.o: Exam.cpp.o
 
 .PHONY : Exam.o
@@ -258,33 +285,6 @@ Professor.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Professor.cpp.s
 .PHONY : Professor.cpp.s
 
-RankingEngine.o: RankingEngine.cpp.o
-
-.PHONY : RankingEngine.o
-
-# target to build an object file
-RankingEngine.cpp.o:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o
-.PHONY : RankingEngine.cpp.o
-
-RankingEngine.i: RankingEngine.cpp.i
-
-.PHONY : RankingEngine.i
-
-# target to preprocess a source file
-RankingEngine.cpp.i:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.i
-.PHONY : RankingEngine.cpp.i
-
-RankingEngine.s: RankingEngine.cpp.s
-
-.PHONY : RankingEngine.s
-
-# target to generate assembly for a file
-RankingEngine.cpp.s:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.s
-.PHONY : RankingEngine.cpp.s
-
 Storage.o: Storage.cpp.o
 
 .PHONY : Storage.o
@@ -354,6 +354,9 @@ help:
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"
+	@echo "... EnrollmentEngine.o"
+	@echo "... EnrollmentEngine.i"
+	@echo "... EnrollmentEngine.s"
 	@echo "... Exam.o"
 	@echo "... Exam.i"
 	@echo "... Exam.s"
@@ -363,9 +366,6 @@ help:
 	@echo "... Professor.o"
 	@echo "... Professor.i"
 	@echo "... Professor.s"
-	@echo "... RankingEngine.o"
-	@echo "... RankingEngine.i"
-	@echo "... RankingEngine.s"
 	@echo "... Storage.o"
 	@echo "... Storage.i"
 	@echo "... Storage.s"
