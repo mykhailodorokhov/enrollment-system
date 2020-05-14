@@ -1,32 +1,35 @@
-#include "FileManager.h"
+#include "Storage.h"
 
-FileManager::FileManager() {
+Storage::Storage() {
     this->exams = nullptr;
     this->faculties = nullptr;
+    this->facultiesCount = 0;
+    this->examCount = 0;
+    this->examQuestionsCount = 0;
 }
 
-Faculty * FileManager::getFaculties() {
-    return this->faculties;
-}
+Faculty * Storage::getFaculties() { return this->faculties; }
+Exam * Storage::getExams() { return this->exams; }
 
-Exam * FileManager::getExams() {
-    return this->exams;
-}
+int Storage::getFacultiesCount() { return this->facultiesCount; }
+int Storage::getExamCount() { return this->examCount; }
+int Storage::getExamQuestionsCount() { return this->examQuestionsCount; }
 
-void FileManager::loadData(string facultiesFileName, string examsFileName, int questionsCount) {
-    this->exams = loadExamsData(examsFileName, questionsCount);
+void Storage::loadDataFromFiles(string facultiesFileName, string examsFileName) {
+    this->exams = loadExamsData(examsFileName);
     this->faculties = loadFacultiesData(facultiesFileName);
 }
 
-Exam* FileManager::loadExamsData(string fileName, int questionsCount) {
+Exam* Storage::loadExamsData(string fileName) {
     ifstream examsStream;
     examsStream.open(fileName);
 
-    int examsCount;
-    examsStream >> examsCount;
+    int examsCount, examQuestionsCount;
+    examsStream >> examsCount >> examQuestionsCount;
 
-    // putting examsCount to an object variable;
+    // assigning examsCount and examQuestionsCount to object variables;
     this->examCount = examsCount;
+    this->examQuestionsCount = examQuestionsCount;
 
     Exam* exams = new Exam[examsCount];
     for (int i = 0; i < examsCount; i++)
@@ -44,9 +47,9 @@ Exam* FileManager::loadExamsData(string fileName, int questionsCount) {
         getline(streamLine, examName, ',');
 
         // Reading questions and answers of the exam
-        string questions[questionsCount];
-        string answers[questionsCount];
-        for(int j=0, q = 0, a = 0; j<=questionsCount*2; j++) {
+        string* questions = new string[examQuestionsCount];
+        string* answers = new string[examQuestionsCount];
+        for(int j=0, q = 0, a = 0; j<examQuestionsCount*2; j++) {
             string column;
             getline(streamLine, column, ',');
 
@@ -60,6 +63,7 @@ Exam* FileManager::loadExamsData(string fileName, int questionsCount) {
         }
 
         exams[i].setName(examName);
+        exams[i].setQuestionsCount(examQuestionsCount);
         exams[i].setQuestions(questions);
         exams[i].setAnswers(answers);
     }
@@ -67,12 +71,15 @@ Exam* FileManager::loadExamsData(string fileName, int questionsCount) {
     return exams;
 }
 
-Faculty* FileManager::loadFacultiesData(string fileName) {
+Faculty* Storage::loadFacultiesData(string fileName) {
     ifstream facultiesStream;
     facultiesStream.open(fileName);
 
     int facultiesCount;
     facultiesStream >> facultiesCount;
+
+    // assigning facultiesCount to the object variable;
+    this->facultiesCount = facultiesCount;
 
     Faculty* faculties = new Faculty [facultiesCount];
     for (int i = 0; i < facultiesCount; i++)

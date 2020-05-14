@@ -6,8 +6,8 @@ using namespace std;
 
 class Faculty {
     string name;
-    Exam* entranceExam;
-    Professor* responsibleProfessor;
+    Exam entranceExam;
+    Professor responsibleProfessor;
 
 public:
     Faculty();
@@ -16,8 +16,8 @@ public:
     string getName();
 
     void setEntranceExam(Exam* entranceExam);
-    Exam* getEntranceExam();
+    Exam getEntranceExam();
 
     void setResponsibleProfessor(Professor* responsibleProfessor);
-    Professor* getResponsibleProfessor();
+    Professor getResponsibleProfessor();
 };

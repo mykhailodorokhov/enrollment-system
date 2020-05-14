@@ -1,21 +1,25 @@
 #include <string>
 #include "Faculty.h"
-#include "Enrollee.h"
+#include "Applicant.h"
 
 using namespace std;
 
 class Application {
-    Enrollee* enrollee;
-    Faculty* faculty;
+    Applicant applicant;
+    Faculty faculty;
     int grade;
     bool result;
 
 public:
-    Application(Enrollee* enrollee, Faculty* faculty, int grade);
+    Application();
 
-    Enrollee* getEnrollee();
-    Faculty* getFaculty();
+    void setApplicant(Applicant* applicant);
+    Applicant getApplicant();
 
+    void setFaculty(Faculty* faculty);
+    Faculty getFaculty();
+
+    void setGrade(int grade);
     int getGrade();
 
     void setResult(bool result);

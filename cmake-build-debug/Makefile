@@ -123,6 +123,33 @@ enrollment_system/fast:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/build
 .PHONY : enrollment_system/fast
 
+Applicant.o: Applicant.cpp.o
+
+.PHONY : Applicant.o
+
+# target to build an object file
+Applicant.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Applicant.cpp.o
+.PHONY : Applicant.cpp.o
+
+Applicant.i: Applicant.cpp.i
+
+.PHONY : Applicant.i
+
+# target to preprocess a source file
+Applicant.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Applicant.cpp.i
+.PHONY : Applicant.cpp.i
+
+Applicant.s: Applicant.cpp.s
+
+.PHONY : Applicant.s
+
+# target to generate assembly for a file
+Applicant.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Applicant.cpp.s
+.PHONY : Applicant.cpp.s
+
 Application.o: Application.cpp.o
 
 .PHONY : Application.o
@@ -149,33 +176,6 @@ Application.s: Application.cpp.s
 Application.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Application.cpp.s
 .PHONY : Application.cpp.s
-
-Enrollee.o: Enrollee.cpp.o
-
-.PHONY : Enrollee.o
-
-# target to build an object file
-Enrollee.cpp.o:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.o
-.PHONY : Enrollee.cpp.o
-
-Enrollee.i: Enrollee.cpp.i
-
-.PHONY : Enrollee.i
-
-# target to preprocess a source file
-Enrollee.cpp.i:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.i
-.PHONY : Enrollee.cpp.i
-
-Enrollee.s: Enrollee.cpp.s
-
-.PHONY : Enrollee.s
-
-# target to generate assembly for a file
-Enrollee.cpp.s:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Enrollee.cpp.s
-.PHONY : Enrollee.cpp.s
 
 Exam.o: Exam.cpp.o
 
@@ -231,33 +231,6 @@ Faculty.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.s
 .PHONY : Faculty.cpp.s
 
-FileManager.o: FileManager.cpp.o
-
-.PHONY : FileManager.o
-
-# target to build an object file
-FileManager.cpp.o:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.o
-.PHONY : FileManager.cpp.o
-
-FileManager.i: FileManager.cpp.i
-
-.PHONY : FileManager.i
-
-# target to preprocess a source file
-FileManager.cpp.i:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.i
-.PHONY : FileManager.cpp.i
-
-FileManager.s: FileManager.cpp.s
-
-.PHONY : FileManager.s
-
-# target to generate assembly for a file
-FileManager.cpp.s:
-	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/FileManager.cpp.s
-.PHONY : FileManager.cpp.s
-
 Professor.o: Professor.cpp.o
 
 .PHONY : Professor.o
@@ -284,6 +257,60 @@ Professor.s: Professor.cpp.s
 Professor.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Professor.cpp.s
 .PHONY : Professor.cpp.s
+
+RankingEngine.o: RankingEngine.cpp.o
+
+.PHONY : RankingEngine.o
+
+# target to build an object file
+RankingEngine.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.o
+.PHONY : RankingEngine.cpp.o
+
+RankingEngine.i: RankingEngine.cpp.i
+
+.PHONY : RankingEngine.i
+
+# target to preprocess a source file
+RankingEngine.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.i
+.PHONY : RankingEngine.cpp.i
+
+RankingEngine.s: RankingEngine.cpp.s
+
+.PHONY : RankingEngine.s
+
+# target to generate assembly for a file
+RankingEngine.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/RankingEngine.cpp.s
+.PHONY : RankingEngine.cpp.s
+
+Storage.o: Storage.cpp.o
+
+.PHONY : Storage.o
+
+# target to build an object file
+Storage.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Storage.cpp.o
+.PHONY : Storage.cpp.o
+
+Storage.i: Storage.cpp.i
+
+.PHONY : Storage.i
+
+# target to preprocess a source file
+Storage.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Storage.cpp.i
+.PHONY : Storage.cpp.i
+
+Storage.s: Storage.cpp.s
+
+.PHONY : Storage.s
+
+# target to generate assembly for a file
+Storage.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Storage.cpp.s
+.PHONY : Storage.cpp.s
 
 main.o: main.cpp.o
 
@@ -321,24 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... enrollment_system"
+	@echo "... Applicant.o"
+	@echo "... Applicant.i"
+	@echo "... Applicant.s"
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"
-	@echo "... Enrollee.o"
-	@echo "... Enrollee.i"
-	@echo "... Enrollee.s"
 	@echo "... Exam.o"
 	@echo "... Exam.i"
 	@echo "... Exam.s"
 	@echo "... Faculty.o"
 	@echo "... Faculty.i"
 	@echo "... Faculty.s"
-	@echo "... FileManager.o"
-	@echo "... FileManager.i"
-	@echo "... FileManager.s"
 	@echo "... Professor.o"
 	@echo "... Professor.i"
 	@echo "... Professor.s"
+	@echo "... RankingEngine.o"
+	@echo "... RankingEngine.i"
+	@echo "... RankingEngine.s"
+	@echo "... Storage.o"
+	@echo "... Storage.i"
+	@echo "... Storage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

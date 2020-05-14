@@ -2,11 +2,12 @@
 
 using namespace std;
 
-class Enrollee {
+class Applicant {
     string name;
 
 public:
-    Enrollee();
-    Enrollee(string name);
+    Applicant();
+
+    void setName(string name);
     string getName();
 };

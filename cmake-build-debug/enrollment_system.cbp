@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.cpp">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h">
+			<Option target="enrollment_system"/>
+		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.cpp">
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h">
-			<Option target="enrollment_system"/>
-		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.cpp">
-			<Option target="enrollment_system"/>
-		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Enrollee.h">
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp">
@@ -104,16 +104,22 @@
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h">
 			<Option target="enrollment_system"/>
 		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.cpp">
-			<Option target="enrollment_system"/>
-		</Unit>
-		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/FileManager.h">
-			<Option target="enrollment_system"/>
-		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp">
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.cpp">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/RankingEngine.h">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.cpp">
+			<Option target="enrollment_system"/>
+		</Unit>
+		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h">
 			<Option target="enrollment_system"/>
 		</Unit>
 		<Unit filename="/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp">
