@@ -18,10 +18,6 @@ Faculty.h
 Applicant.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
 
-/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp
-EnrollmentEngine.h
-/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
-
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
 Application.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
@@ -38,7 +34,35 @@ Professor.h
 Exam.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
 
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.cpp
+InterfaceController.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.h
+Application.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
 string
 -
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h
+iostream
+-
+fstream
+-
+sstream
+-
+Application.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp
+iostream
+-
+Storage.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h
+EnrollmentEngine.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
+InterfaceController.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.h
 

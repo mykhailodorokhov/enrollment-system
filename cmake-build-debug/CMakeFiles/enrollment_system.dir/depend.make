@@ -27,6 +27,14 @@ CMakeFiles/enrollment_system.dir/Faculty.cpp.o: ../Faculty.cpp
 CMakeFiles/enrollment_system.dir/Faculty.cpp.o: ../Faculty.h
 CMakeFiles/enrollment_system.dir/Faculty.cpp.o: ../Professor.h
 
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../Applicant.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../Application.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../Exam.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../Faculty.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../InterfaceController.cpp
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../InterfaceController.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o: ../Professor.h
+
 CMakeFiles/enrollment_system.dir/Professor.cpp.o: ../Professor.cpp
 CMakeFiles/enrollment_system.dir/Professor.cpp.o: ../Professor.h
 
@@ -43,6 +51,7 @@ CMakeFiles/enrollment_system.dir/main.cpp.o: ../Application.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../EnrollmentEngine.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Exam.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Faculty.h
+CMakeFiles/enrollment_system.dir/main.cpp.o: ../InterfaceController.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Professor.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../Storage.h
 CMakeFiles/enrollment_system.dir/main.cpp.o: ../main.cpp

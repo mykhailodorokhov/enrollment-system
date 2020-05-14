@@ -21,15 +21,17 @@ void EnrollmentEngine::processApplications(Application *applications, int applic
         string facultyName = faculties[f].getName();
 
         int gradeSum = 0;
+        int numberOfApplications = 0;
         for (int a = 0; a < applicationsCount; a++) {
             string facultyInApplication = applications[a].getFaculty().getName();
 
             // counting only application of our faculty
             if (!facultyInApplication.compare(facultyName)) {
                 gradeSum += applications[a].getGrade();
+                numberOfApplications++;
             }
         }
-        int averageGrade = (int) gradeSum / (double) applicationsCount;
+        int averageGrade = (int) gradeSum / (double) numberOfApplications;
 
         enrollmentGradeForFaculty[f] = averageGrade;
     }

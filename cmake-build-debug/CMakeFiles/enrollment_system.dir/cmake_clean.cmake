@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o"
   "CMakeFiles/enrollment_system.dir/Exam.cpp.o"
   "CMakeFiles/enrollment_system.dir/Faculty.cpp.o"
+  "CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o"
   "CMakeFiles/enrollment_system.dir/Professor.cpp.o"
   "CMakeFiles/enrollment_system.dir/Storage.cpp.o"
   "CMakeFiles/enrollment_system.dir/main.cpp.o"

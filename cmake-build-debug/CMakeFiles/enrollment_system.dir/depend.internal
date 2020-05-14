@@ -27,6 +27,14 @@ CMakeFiles/enrollment_system.dir/Faculty.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.cpp
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
+CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.cpp
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
 CMakeFiles/enrollment_system.dir/Professor.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
@@ -44,6 +52,7 @@ CMakeFiles/enrollment_system.dir/main.cpp.o
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
+ /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h
  /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp

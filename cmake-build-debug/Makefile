@@ -258,6 +258,33 @@ Faculty.cpp.s:
 	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/Faculty.cpp.s
 .PHONY : Faculty.cpp.s
 
+InterfaceController.o: InterfaceController.cpp.o
+
+.PHONY : InterfaceController.o
+
+# target to build an object file
+InterfaceController.cpp.o:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o
+.PHONY : InterfaceController.cpp.o
+
+InterfaceController.i: InterfaceController.cpp.i
+
+.PHONY : InterfaceController.i
+
+# target to preprocess a source file
+InterfaceController.cpp.i:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/InterfaceController.cpp.i
+.PHONY : InterfaceController.cpp.i
+
+InterfaceController.s: InterfaceController.cpp.s
+
+.PHONY : InterfaceController.s
+
+# target to generate assembly for a file
+InterfaceController.cpp.s:
+	$(MAKE) -f CMakeFiles/enrollment_system.dir/build.make CMakeFiles/enrollment_system.dir/InterfaceController.cpp.s
+.PHONY : InterfaceController.cpp.s
+
 Professor.o: Professor.cpp.o
 
 .PHONY : Professor.o
@@ -363,6 +390,9 @@ help:
 	@echo "... Faculty.o"
 	@echo "... Faculty.i"
 	@echo "... Faculty.s"
+	@echo "... InterfaceController.o"
+	@echo "... InterfaceController.i"
+	@echo "... InterfaceController.s"
 	@echo "... Professor.o"
 	@echo "... Professor.i"
 	@echo "... Professor.s"

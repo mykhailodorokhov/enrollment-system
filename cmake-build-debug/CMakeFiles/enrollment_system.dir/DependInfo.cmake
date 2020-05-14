@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/EnrollmentEngine.cpp.o"
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Exam.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/Exam.cpp.o"
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/Faculty.cpp.o"
+  "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/InterfaceController.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/InterfaceController.cpp.o"
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/Professor.cpp.o"
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/Storage.cpp.o"
   "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/main.cpp" "/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/cmake-build-debug/CMakeFiles/enrollment_system.dir/main.cpp.o"
