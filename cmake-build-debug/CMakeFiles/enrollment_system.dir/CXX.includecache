@@ -10,6 +10,10 @@
 string
 -
 
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.cpp
+Application.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
+
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Application.h
 string
 -
@@ -17,6 +21,10 @@ Faculty.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Faculty.h
 Applicant.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Applicant.h
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.cpp
+EnrollmentEngine.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
 
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/EnrollmentEngine.h
 Application.h
@@ -45,6 +53,10 @@ Application.h
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Professor.h
 string
 -
+
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.cpp
+Storage.h
+/Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h
 
 /Users/mykhailodorokhov/Documents/Sasha/enrollment-system/Storage.h
 iostream

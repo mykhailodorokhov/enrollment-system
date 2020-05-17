@@ -67,8 +67,8 @@ Application * InterfaceController::takeExaminations(int applicantCount, Faculty 
         //
         // Filling in application.
         //
-        applications[a].setApplicant(&applicant);
-        applications[a].setFaculty(&chosenFaculty);
+        applications[a].setApplicant(applicant);
+        applications[a].setFaculty(chosenFaculty);
         applications[a].setGrade(grade);
     }
 

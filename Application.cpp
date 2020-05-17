@@ -5,10 +5,10 @@ Application::Application() {
     this->result = false;
 }
 
-void Application::setApplicant(Applicant *applicant) { this->applicant = *(applicant); }
+void Application::setApplicant(Applicant applicant) { this->applicant = applicant; }
 Applicant Application::getApplicant() { return this->applicant; }
 
-void Application::setFaculty(Faculty *faculty) { this->faculty = *(faculty); }
+void Application::setFaculty(Faculty faculty) { this->faculty = faculty; }
 Faculty Application::getFaculty() { return this->faculty; }
 
 void Application::setGrade(int grade) { this->grade = grade; }

@@ -15,10 +15,10 @@ class Application {
 public:
     Application();
 
-    void setApplicant(Applicant* applicant);
+    void setApplicant(Applicant applicant);
     Applicant getApplicant();
 
-    void setFaculty(Faculty* faculty);
+    void setFaculty(Faculty faculty);
     Faculty getFaculty();
 
     void setGrade(int grade);
